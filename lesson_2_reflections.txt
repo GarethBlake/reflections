@@ -1,0 +1,5 @@
+What happens when you initialise a repository? Why do you need to do it?
+In the directory type git init and a .git directory is created with the relevant init files and directories
+git status show that there are no commits and no files being tracked - any files are untracked
+This is because there is no point tracking all files, just the ones that matter!
+
