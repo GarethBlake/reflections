@@ -3,3 +3,8 @@ In the directory type git init and a .git directory is created with the relevant
 git status show that there are no commits and no files being tracked - any files are untracked
 This is because there is no point tracking all files, just the ones that matter!
 
+How is the staging area different from the working directory and the repository? 
+Staging is about things which are ready for a commit
+
+What value do you think it offers?
+Allows time to change mind before a commit, even change the files between commits, adding and removing files.
