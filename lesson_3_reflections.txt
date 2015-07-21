@@ -4,15 +4,21 @@ To backup
 Help move between computers
 To collaborate
 
+git pull origin master
+(brings in content from remote repository, this file in this case)
+
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+The additions might interfere with what is present locally. Might upset current local work.
+Remote changes might not be in a suitable state to pull yet.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A branch exists in a repository, it is the code branch indicating the sources of this part of the code
+A clone is a copy of a particular repository, it can be local to local or remote to local
+A fork is a clone on GitHub, used to acknowledge and borrow someone elses repository.
+The fork can be changed without affecting the original
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
