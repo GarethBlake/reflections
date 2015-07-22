@@ -22,15 +22,16 @@ The fork can be changed without affecting the original
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+This facilitates offline working. So can continue working on a branch and merge later.
+git log and git status commands do not need access to remote repository to work.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+Collaboration manually would make offline working easy but file sharing tricky.
+File merging would be manual and very difficult.
+Changes would have to be serial, one person at a time.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+Sharing debugged and agreed code in master, use it as the definitive tested and accepted version.
+Branches can be used to discuss possible changes and get them right before merging with the main code
